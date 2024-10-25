@@ -1,0 +1,63 @@
+
+/* ============= 
+  General CSS 
+=============== */
+
+* {
+	box-sizing: border-box;
+	/* Makes so padding and border are included
+	in the width of an element. 
+	so if you make a box 200px wide,
+	the set padding and border are included */
+	
+}
+
+body {
+	margin: 0;
+	font-family: 'font-family', 'other-font';
+	font-size: 16px; /* or 1.125rem */
+	font-weight: 400; 
+	line-height: 1.6; /* a normal default */
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* ============= 
+   Typography 
+=============== */
+h1,h2,h3,strong {
+	font-family: helvetica;
+	font-weight: 700;
+	color: black;
+	margin-top: 0; /* avoids added padding from flex boxes */
+	}
+	
+a {
+	color: red;
+	}
+	
+a:hover, a:focus {
+	color: orange;
+	}
+
+.subtitle {
+    
+	}
+/* add other typography based styles below */
+	
+	
+/* ============= 
+ General Layout 
+=============== */
+
+.main-grid {
+	display: grid;
+}
+
+/* Navigation */
+/* (section) */
+/* footer */
